@@ -164,6 +164,11 @@ public class Home extends javax.swing.JFrame {
                 jButton7ComponentShown(evt);
             }
         });
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 30, 107, 80));
 
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/details product.png"))); // NOI18N
@@ -487,6 +492,11 @@ public class Home extends javax.swing.JFrame {
         // TODO add your handling code here:
         new DeleteBuyer().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        new UpdateProduct().setVisible(true);
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
