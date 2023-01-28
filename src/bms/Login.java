@@ -52,7 +52,6 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 420, 70, 30));
         getContentPane().add(textField, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 380, 240, 30));
 
-        passwordField.setText("jPasswordField1");
         passwordField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordFieldActionPerformed(evt);
